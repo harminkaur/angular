@@ -1,0 +1,48 @@
+<div class="card">
+<div *ngIf = "showLogin" class="login">
+  <br>
+    <form id="form">
+        <div align= "center">
+            <label> <h2> Username &#9734; 
+            <input type="text" name="username" [(ngModel)] = "username"> </h2> </label>
+        </div>
+    <br>
+        <div align= "center">
+            <label> <h2> Password &#9734; 
+            <input type="password" name="password" [(ngModel)] = "password"> </h2> </label>
+        </div>
+    
+        <br>
+        
+        <div align= "center" class="input">
+            <input *ngIf = "showLogin" type="submit" class="button" value="Login" (click) = "toggleLogin()">
+            </div>
+    </form>
+    <br>
+  </div>
+
+    <div *ngIf = "!showLogin"> <div class="div"> <h2> Welcome {{ username }} &#9734; </h2>
+    <h4> Thank you for visiting our website. You could check the reviews (description, rating, actors, etc.) of the released movies of the month provided by our experts. </h4> </div>
+
+    <div *ngFor = "let movie of movies">
+
+        <div *ngIf = "!showLogin" id="card-body">
+    
+          <h1> <img [src] = "movie.img"
+          [style.width.px] = "imageWidth"
+          [title] = "movie.name | uppercase"/> </h1>
+          <h2> Movie Name : {{movie.name}} </h2>
+
+          <h4> Award : <img [src] = "movie.award"
+          [style.width.px] = "imageAwardWidth"/> </h4>
+     
+          
+          <h4> Movie Description : {{movie.description}} </h4>
+          <h4> Movie Rating :  {{movie.rating}} </h4>
+          <h4> Movie Category :  {{movie.category}} </h4>
+          <h4> Movie Actor : {{movie.actor}} </h4>
+        
+        </div>
+
+      </div>
+    </div>

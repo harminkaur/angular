@@ -1,0 +1,19 @@
+.header {
+    height: 120px;
+    background-color: lightpink;
+    /* background-color: lightblue; */
+    /* background-color: rgb(199, 65, 65); */
+    display: flex;
+}
+
+img {
+    height: 80px;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+h1 {
+   padding-left: 295px;
+   padding-top: 20px;
+}

@@ -1,0 +1,12 @@
+.footer {
+    background-color:lightblue;
+    height: 100px;
+    display: flex;
+    clear: both;
+}
+
+.link {
+    margin: auto;
+    margin-top: auto;
+    color: black;  
+}

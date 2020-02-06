@@ -1,0 +1,43 @@
+#card-body {
+  height: 900px;
+  width: 600px;
+  float: left;
+  margin-left: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: rgb(241, 230, 213);
+}
+
+fieldset {
+    height: 50px;
+    width: 300px;
+}
+
+.login {
+    /* background-color: tomato; */
+    height: 400px;
+    background-image: url("src/assets/images/movies.jpg");
+    background-size: 1300px 400px;
+}
+
+legend {
+    font-size: 20px;
+}
+
+input {
+    height: 20px;
+    width: 250px;
+    font-size: 20px;
+}
+
+#form {
+    margin-top: 60px;
+}
+
+.button {
+    width: 100px;
+}
+
+.div {
+    background-color: lightcyan;
+}

@@ -1,0 +1,12 @@
+.navigation {
+    /* background-color: lightblue; */
+    background-color: rgb(199, 65, 65);
+    height: 50px;
+    display: flex;
+}
+
+.link {
+    padding-top: 15px;
+    padding-left: 20px;
+    color: black;
+}

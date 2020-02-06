@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'web304-final-assignment';
+
+  // movies : any = [];
+  // constructor(private service:MoviesService){
+
+  // }
+
+  // ngOnInit(){
+  //   this.movies = this.service.getdata();
+  // }
+
+  // title = 'web304-final-assignment';
+
 }

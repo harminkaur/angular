@@ -1,0 +1,9 @@
+/* #fullPage {
+    flex-direction: column;
+    min-height: 100vh;
+    display: grid;
+}*/
+
+#fullpage {
+    background-color: black;
+}
